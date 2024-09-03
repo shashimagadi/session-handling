@@ -30,7 +30,7 @@ const LoginForm = () => {
       "http://localhost:3000/login",
       formDataLogin
     );
-    console.log("postt va", postValues.data.jwtToken);
+    console.log("postt vallllll", postValues.data.jwtToken);
     if (postValues.data.message === "yes") {
       localStorage.setItem("authToken", postValues.data.jwtToken);
       setTimeout(() => {
